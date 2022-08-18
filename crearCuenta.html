@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>    
+    <link rel="stylesheet" href="css/mdb.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<title>Control de Casos</title>
+</head>
+<body>
+	<div class="container mt-5">
+		<h1>Nuevo contacto</h1>
+		<form>
+		  
+		  <div class="row mb-4">
+		    <div class="col">
+		      <div class="form-outline">
+		        <input type="text" id="firstname" class="form-control" required />
+		        <label class="form-label" for="firstname">Nombres</label>
+		      </div>
+		    </div>
+		    <div class="col">
+		      <div class="form-outline">
+		        <input type="text" id="lastname" class="form-control" required />
+		        <label class="form-label" for="lastname">Apellidos</label>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="form-outline mb-4">
+		    <input type="text" id="address" class="form-control" />
+		    <label class="form-label" for="address">Direccion</label>
+		  </div>
+
+		  <div class="form-outline mb-4">
+		    <input type="email" id="email" class="form-control" />
+		    <label class="form-label" for="email">Correo electronico</label>
+		  </div>
+
+		  <div class="row mb-4">
+		  	<div class="col">
+			  <div class="form-outline mb-4">
+			    <input type="text" id="phone1" class="form-control" />
+			    <label class="form-label" for="phone1">Celular</label>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="form-outline mb-4">
+			    <input type="text" id="phone2" class="form-control" />
+			    <label class="form-label" for="phone2">Telefono de casa/oficina</label>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="row mb-4">
+		  	<div class="col">
+			  <div class="form-outline mb-4">
+			    <input type="password" id="password" class="form-control" />
+			    <label class="form-label" for="password">Clave</label>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="form-outline mb-4">
+			    <input type="password" id="confirmation" class="form-control" />
+			    <label class="form-label" for="confirmation">Confirmacion</label>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="form-outline mb-4">
+		    <textarea class="form-control" id="information" rows="4"></textarea>
+		    <label class="form-label" for="infomation">Informacion adicional</label>
+		  </div>
+
+		  <div class="d-grid gap-2 d-md-block">
+			  <button type="submit" class="btn btn-primary">Registrar</button>
+			  <a href="login.html" class="btn btn-secondary active" role="button" aria-pressed="true">Regresar</a>
+		  </div>
+		</form>
+	</div>
+
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+</html>
